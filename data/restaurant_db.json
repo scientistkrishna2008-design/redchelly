@@ -165,6 +165,31 @@
   ],
   "orders": [
     {
+      "id": "ORD-867218",
+      "tableNo": 8,
+      "customerName": "Table 8 Guest",
+      "items": [
+        {
+          "id": 1,
+          "name": "Hyderabadi Chicken Dum Biryani",
+          "price": 180,
+          "quantity": 2,
+          "specialNotes": "add more salt,make it spicy"
+        },
+        {
+          "id": 2,
+          "name": "SPL Gravy Chicken",
+          "price": 160,
+          "quantity": 3,
+          "specialNotes": "add more salt,make it spicy"
+        }
+      ],
+      "totalAmount": 840,
+      "status": "Completed",
+      "createdAt": "2026-10-04T11:21:07.218Z",
+      "updatedAt": "2026-10-04T11:22:00.904Z"
+    },
+    {
       "id": "ORD-720258",
       "tableNo": 2,
       "customerName": "Table 2 Guest",
