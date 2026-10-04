@@ -1,0 +1,259 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Hyderabadi Chicken Dum Biryani",
+      "category": "Biryani & Rice",
+      "price": 180,
+      "description": "Fragrant basmati rice cooked with succulent chicken pieces, aromatic spices, topped with boiled egg & mint.",
+      "image": "/images/hyderabadi_chicken_biryani.jpg",
+      "isVeg": false,
+      "inStock": true,
+      "badge": "Bestseller"
+    },
+    {
+      "id": 2,
+      "name": "SPL Gravy Chicken",
+      "category": "Gravies & Curries",
+      "price": 160,
+      "description": "Signature Red Chelly spicy chicken curry with secret South Indian whole spices & roasted coconut gravy.",
+      "image": "/images/spl_gravy_chicken.jpg",
+      "isVeg": false,
+      "inStock": true,
+      "badge": "Chef's Special"
+    },
+    {
+      "id": 3,
+      "name": "Moghlai Chi Gravy",
+      "category": "Gravies & Curries",
+      "price": 175,
+      "description": "Rich Mughlai style chicken curry crafted in creamy cashew-almond sauce with aromatic herbs & saffron infusion.",
+      "image": "/images/moghlai_chicken_gravy.jpg",
+      "isVeg": false,
+      "inStock": true,
+      "badge": "Must Try"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Tika",
+      "category": "Starters & Tandoori",
+      "price": 150,
+      "description": "Tender boneless chicken marinated in spiced yogurt, charcoal roasted to perfection. Served with mint chutney.",
+      "image": "/images/chicken_tikka.jpg",
+      "isVeg": false,
+      "inStock": true,
+      "badge": "Popular"
+    },
+    {
+      "id": 5,
+      "name": "Butter Naan",
+      "category": "Breads",
+      "price": 35,
+      "description": "Soft clay-oven baked flatbread brushed generously with pure butter.",
+      "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80",
+      "isVeg": true,
+      "inStock": true,
+      "badge": ""
+    },
+    {
+      "id": 6,
+      "name": "Tandoori Roti",
+      "category": "Breads",
+      "price": 20,
+      "description": "Traditional whole wheat bread cooked in tandoor.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "isVeg": true,
+      "inStock": false,
+      "badge": ""
+    },
+    {
+      "id": 7,
+      "name": "Paneer Butter Masala",
+      "category": "Gravies & Curries",
+      "price": 140,
+      "description": "Fresh paneer cubes simmered in rich creamy tomato butter sauce.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+      "isVeg": true,
+      "inStock": true,
+      "badge": "Veg Special"
+    },
+    {
+      "id": 8,
+      "name": "Jeera Rice",
+      "category": "Biryani & Rice",
+      "price": 90,
+      "description": "Long grain basmati rice tempered with aromatic cumin seeds and ghee.",
+      "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80",
+      "isVeg": true,
+      "inStock": true,
+      "badge": ""
+    },
+    {
+      "id": 9,
+      "name": "Fresh Lime Soda",
+      "category": "Beverages & Desserts",
+      "price": 40,
+      "description": "Refreshing fizzy drink with fresh squeezed lemon juice, mint & choice of sweet/salted.",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
+      "isVeg": true,
+      "inStock": true,
+      "badge": ""
+    },
+    {
+      "id": 10,
+      "name": "Gulab Jamun (2 Pcs)",
+      "category": "Beverages & Desserts",
+      "price": 50,
+      "description": "Warm milk dumplings soaked in cardamom infused sugar syrup.",
+      "image": "https://images.unsplash.com/photo-1629851478794-5b432a5ff5f0?auto=format&fit=crop&w=600&q=80",
+      "isVeg": true,
+      "inStock": true,
+      "badge": "Sweet"
+    }
+  ],
+  "tables": [
+    {
+      "tableNo": 1,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 2,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 3,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 4,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 5,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 6,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 7,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 8,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 9,
+      "status": "Available",
+      "currentOrderId": null
+    },
+    {
+      "tableNo": 10,
+      "status": "Available",
+      "currentOrderId": null
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-720258",
+      "tableNo": 2,
+      "customerName": "Table 2 Guest",
+      "items": [
+        {
+          "id": 3,
+          "name": "Moghlai Chi Gravy",
+          "price": 175,
+          "quantity": 2,
+          "specialNotes": "add more salt"
+        }
+      ],
+      "totalAmount": 350,
+      "status": "Completed",
+      "createdAt": "2026-10-04T10:45:20.258Z",
+      "updatedAt": "2026-10-04T10:47:53.498Z"
+    },
+    {
+      "id": "ORD-672339",
+      "tableNo": 2,
+      "customerName": "Table 2 Guest",
+      "items": [
+        {
+          "id": 3,
+          "name": "Moghlai Chi Gravy",
+          "price": 175,
+          "quantity": 2,
+          "specialNotes": "add more salt"
+        }
+      ],
+      "totalAmount": 350,
+      "status": "Completed",
+      "createdAt": "2026-10-04T10:44:32.339Z",
+      "updatedAt": "2026-10-04T10:47:54.934Z"
+    },
+    {
+      "id": "ORD-569419",
+      "tableNo": 2,
+      "customerName": "Table 2 Guest",
+      "items": [
+        {
+          "id": 2,
+          "name": "SPL Gravy Chicken",
+          "price": 160,
+          "quantity": 1,
+          "specialNotes": ""
+        },
+        {
+          "id": 3,
+          "name": "Moghlai Chi Gravy",
+          "price": 175,
+          "quantity": 1,
+          "specialNotes": ""
+        },
+        {
+          "id": 1,
+          "name": "Hyderabadi Chicken Dum Biryani",
+          "price": 180,
+          "quantity": 1,
+          "specialNotes": ""
+        }
+      ],
+      "totalAmount": 515,
+      "status": "Completed",
+      "createdAt": "2026-10-04T10:42:49.419Z",
+      "updatedAt": "2026-10-04T10:43:10.217Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Karthik R.",
+      "rating": 5,
+      "comment": "Best place to have a meal in Thirumalaisamudram. The Hyderabadi Dum Biryani and SPL Gravy Chicken are unmatched!",
+      "date": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "name": "Suresh M.",
+      "rating": 3,
+      "comment": "More food colour, but taste was OK, quality can be improved.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "name": "Anand K.",
+      "rating": 4,
+      "comment": "Great spot near SASTRA university area. Quick service and affordable price range ₹1-200.",
+      "date": "2026-09-02"
+    }
+  ]
+}
